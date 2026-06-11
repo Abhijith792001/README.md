@@ -1,90 +1,169 @@
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--              ABHIJITH J — GitHub Profile README            -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+
+<div align="center">
+
+```
+flutter pub get && dart run main.dart
+```
+
 # Abhijith J
 
-📍 Alappuzha, Kerala, India  
-✉️ abhijith792001@gmail.com | 📞 +91 96565 29707  
-[LinkedIn](https://linkedin.com/in/abhiflutter) | [GitHub](https://github.com/Abhijith792001)
+**Flutter Developer · Cross-platform · Clean Architecture**
+
+[![Location](https://img.shields.io/badge/📍_Kerala,_India-21262d?style=flat-square&color=21262d)](https://github.com/Abhijith792001)
+[![Status](https://img.shields.io/badge/🟢_Open_to_remote-21262d?style=flat-square&color=21262d)](mailto:abhijith792001@gmail.com)
+[![Apps](https://img.shields.io/badge/📱_4+_apps_on_stores-21262d?style=flat-square&color=21262d)](https://github.com/Abhijith792001)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-abhiflutter-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/abhiflutter)
+[![Email](https://img.shields.io/badge/Email-abhijith792001@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:abhijith792001@gmail.com)
+
+</div>
 
 ---
 
-## 💼 Professional Summary
-Flutter Developer specializing in **cross-platform mobile apps** using Flutter/Dart, GetX state management, Dio/REST integrations, and Firebase services. Experienced with authentication, role-based access, QR/Barcode workflows, performance optimization, and clean architecture.  
+## `pubspec.yaml`
 
-Currently pursuing **BCA** while working at **Amrita Vishwa Vidyapeetham**, with proven ability to improve usability, reliability, and operational efficiency in mobile and web applications.
+```yaml
+name: abhijith_j
+version: 2.5.0  # years of experience
 
----
-
-## 🛠 Technical Skills
-
-**Languages:** Dart, JavaScript, HTML, CSS  
-**Mobile Development:** Flutter SDK, Android Studio, iOS (basics), App Lifecycle, Clean Architecture  
-**State Management:** GetX, Provider, BLoC  
-**Networking/Backend:** Dio, REST APIs, Firebase (Auth, Firestore, Storage)  
-**Web Development:** React, HTML5, CSS3, Tailwind CSS, Bootstrap 5, PWA  
-**Tools:** Git, GitHub  
-**Design:** Figma, UI/UX, Adobe Illustrator, Photoshop  
-
----
-
-## 💻 Work Experience
-
-### Flutter Developer — Amrita Vishwa Vidyapeetham, Kollam, Kerala  
-**Nov 2023 – Present**  
-- Develop and maintain **cross-platform mobile applications** using Flutter/Dart.  
-- Implement **GetX state management**, **REST API integrations with Dio**, and **Firebase services**.  
-- Collaborate with stakeholders to deliver **role-based access systems**, **asset management**, and **verification workflows**.
+dependencies:
+  flutter:          ^3.x
+  dart:             ^3.x
+  state_management: [getx, provider, bloc]
+  networking:       [dio, rest_api, firebase]
+  web:              [react, tailwindcss, supabase]
+  architecture:     [clean_architecture, mvvm]
+  tools:            [figma, git, android_studio, vs_code]
+```
 
 ---
 
-## 📱 Highlighted Flutter Projects
+## 🛠 Tech Stack
 
-### Swagatham — Role-based Student Verification (Google Play)
-**Tech:** Flutter, Dart, GetX, Dio, REST API, QR/Barcode  
-- Role-based verification for Gate Security, Teachers, and Hostel Wardens.  
-- Reduced redundant checks across departments.  
-- Optimized scanning/search flows with resilient networking and error handling.  
-- [Google Play Link](#)
-
-### ICTS — Asset Lifecycle Management (Amrita College)
-**Tech:** Flutter, Dart, GetX, Dio, REST API  
-- Asset lifecycle: add/sell/retire assets, audit, verify status, and browse inventory.  
-- Built high-performance asset listing with search, filters, and server sync.  
-- Streamlined auditing workflows, reducing manual work and improving accuracy.
-
-**Additional Mobile Experience:**  
-- MyAmrita (Staff app) — student search, leave management, calendar.  
-- Student App — view gate pass, grades, timetable.  
-- Attendance Scanner — QR-based check-in, reduced check-in time by 40%.
+| Domain | Technologies |
+|---|---|
+| **Mobile** | Flutter SDK, Dart, Android Studio, iOS, Clean Architecture, MVVM |
+| **State** | GetX, Provider, BLoC |
+| **Backend / API** | Firebase (Auth · Firestore · Storage · FCM), Dio, RESTful APIs |
+| **Web** | React.js, Tailwind CSS, Bootstrap 5, Supabase, PWA |
+| **Database** | Firebase Firestore, Cloud Storage, Supabase |
+| **Design** | Figma, Adobe Illustrator, Photoshop, Wireframing |
+| **Tools** | Git, GitHub, Xcode, Chrome DevTools, Agile |
 
 ---
 
-## 🌐 Selected Web Projects
+## 📱 Flutter Projects
 
-- **TaskManager (React + Supabase):** Full CRUD, real-time sync, protected routes.  
-- **Atozpath (Upwork):** Shopify-ready storefront, mobile-first Tailwind UI.  
-- **Amrita Admissions Portal:** Mobile-first rebuild; increased mobile engagement by 60%.  
-- **Class Management System:** Real-time scheduling with conflict detection; reduced errors by 80%.
+### [Amrita Vidyalayam Student App](https://play.google.com/store/apps/details?id=com.amritavidyalayam.student) — Android · iOS
+> `Flutter` `GetX` `Dio` `Firebase` `REST API` · **Play Store + App Store**
+
+Smart digital platform for students, parents, and teachers.
+- Attendance tracking, fee payment, timetable, notifications, visitor management
+- Secure OTP-based mobile authentication + real-time school-parent-student communication
+- Cross-platform — published on both [Google Play](https://play.google.com/store/apps/details?id=com.amritavidyalayam.student) and [App Store](https://apps.apple.com/in/app/amrita-vidyalayam-students/id6764488895)
+
+---
+
+### [Swagatham](https://play.google.com/store/apps/details?id=com.myamrita.swagatham) — Role-Based Verification
+> `Flutter` `GetX` `Dio` `QR/Barcode` · **Play Store**
+
+Multi-role verification for Gate Security, Teachers, and Hostel Wardens.
+- Single-source-of-truth logic — no redundant re-verification across checkpoints
+- Low-latency scanning with automatic retries and resilient error handling
+
+---
+
+### [Amrita Vidyalayam Admission](https://play.google.com/store/apps/details?id=com.amrita.admission) — Digital Admissions
+> `Flutter` `GetX` `Dio` `Firebase Auth` `Firestore` `Storage` · **Play Store**
+
+End-to-end paperless school admission from mobile.
+- Multi-step form validation, document upload, real-time status tracking via Firestore
+- Firebase Auth for secure user management + API-driven status notifications
+
+---
+
+### ICTS Asset Management — Enterprise Asset Lifecycle
+> `Flutter` `GetX` `Dio` `REST API` · **Internal**
+
+Comprehensive asset lifecycle: disposal, retirement, audit trails, inventory.
+- High-performance listing with advanced filters and full-text search across 1000+ assets
+- Server-synchronized audit workflows with notes, attachments, and approval confirmations
+
+---
+
+### Attendance Scanner — Construction Site QR Attendance
+> `Flutter` `GetX` `Dio` `QR Scanner` · **Internal**
+
+QR-based attendance for construction site workers with real-time API submission.
+- **40% faster check-in** with optimized scanning, offline support, and robust error handling
+
+---
+
+## 🌐 Web Projects
+
+| Project | Stack | Result |
+|---|---|---|
+| **TaskManager** | React + Supabase | Full CRUD, real-time sync, protected routes |
+| **Atozpath** | Shopify + Tailwind | Mobile-first storefront (Upwork client) |
+| **Amrita Admissions Portal** | React | +60% mobile engagement |
+| **Course Registration System** | React | 500+ concurrent users, queue management |
+| **Class Management System** | React | −80% scheduling errors |
+| **ICTS Support Portal** | React | −45% IT resolution time |
+
+---
+
+## 💼 Experience
+
+```
+◉ Flutter Developer
+  Innspark Solutions Pvt. Ltd. · Kerala, India
+  Feb 2026 → Present
+
+  ▸ Cross-platform Flutter/Dart apps following MVVM + Clean Architecture
+  ▸ RESTful API integration with Dio + Firebase (Auth, Firestore, Storage)
+  ▸ GetX state management across multiple concurrent projects
+
+
+◎ Software Developer
+  Amrita Vishwa Vidyapeetham · Kollam, Kerala
+  Nov 2023 → Jan 2026
+
+  ▸ Shipped 4+ production apps to Play Store + App Store
+  ▸ 10+ responsive web portals — +40% usability, −25% support requests
+  ▸ Systems handling 500+ concurrent users with real-time data sync
+  ▸ Led requirement gathering with cross-functional stakeholders
+```
+
+---
+
+## 📊 Impact
+
+```
+┌──────────────────┬─────────────────────┬─────────────────────┐
+│  4+ apps shipped │  40% faster         │  60% mobile         │
+│  Play + App Store│  check-in (QR)      │  engagement ↑       │
+├──────────────────┼─────────────────────┼─────────────────────┤
+│  500+ concurrent │  80% fewer sched.   │  45% faster IT      │
+│  users handled   │  errors             │  resolution         │
+└──────────────────┴─────────────────────┴─────────────────────┘
+```
 
 ---
 
 ## 🎓 Education
 
-**Bachelor of Computer Applications (BCA)** — Amrita Vishwa Vidyapeetham, Kerala, India  
-*2023 – Present (Expected graduation: 2026)*  
-
-**Diploma in Computer Engineering** — Kerala, India  
-*Completed 2021*
+- **BCA** — Amrita Vishwa Vidyapeetham, Kerala *(2023 – 2026)*
+- **Diploma in Computer Engineering** — Kerala *(2021)*
 
 ---
 
-## 🏆 Key Achievements
+<div align="center">
 
-- Delivered **3+ production Flutter apps** improving institutional efficiency.  
-- Built **10+ responsive web portals**; increased usability by 40%.  
-- UI/UX improvements reduced support requests by 25%.
+*Built with Flutter. Driven by clean code.*
 
----
+[![GitHub](https://img.shields.io/badge/GitHub-Abhijith792001-181717?style=flat-square&logo=github)](https://github.com/Abhijith792001)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-abhiflutter-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/abhiflutter)
 
-## 🗣 Languages
-
-- Malayalam (Native)  
-- English (Professional Working Proficiency)
+</div>
